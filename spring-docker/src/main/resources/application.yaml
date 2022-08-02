@@ -3,6 +3,7 @@ config:
     port: ${SPRING_SERVER_PORT:8000}
   database:
     port: ${SPRING_DATABASE_PORT:3000}
+    address: ${SPRING_DATABASE_ADDRESS:localhost}
     name: ${SPRING_DATABASE_NAME:docker_db}
 
 server:
@@ -10,7 +11,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:${config.database.port}/${config.database.name}
+    url: jdbc:mysql://${config.database.address}:${config.database.port}/${config.database.name}
     username: user
     password: user
   jpa:
