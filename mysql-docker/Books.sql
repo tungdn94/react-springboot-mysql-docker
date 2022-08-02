@@ -1,7 +1,7 @@
 create table Books (
 	id INT,
-	Title VARCHAR(50),
-	Author VARCHAR(50)
+	Title VARCHAR(50) NOT NULL,
+	Author VARCHAR(50) NOT NULL
 );
 insert into Books (id, Title, Author) values (1, 'Horizontal explicit service-desk', 'Aleda Wadeson');
 insert into Books (id, Title, Author) values (2, 'Networked incremental task-force', 'Sherill Scheu');
