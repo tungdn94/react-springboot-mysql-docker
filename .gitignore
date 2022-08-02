@@ -16,4 +16,23 @@ target/
 
 ## Spring Docker
 
-spring-docker/.gitignore
+/spring-docker/.gitignore
+/spring-docker/.idea
+/spring-docker/target
+
+## React Docker
+
+/react-docker/node_modules
+/react-docker/.pnp
+/react-docker/.pnp.js
+/react-docker/coverage
+/react-docker/build
+/react-docker/.DS_Store
+/react-docker/.env.local
+/react-docker/.env.development.local
+/react-docker/.env.test.local
+/react-docker/.env.production.local
+/react-docker/npm-debug.log*
+/react-docker/yarn-debug.log*
+/react-docker/yarn-error.log*
+/react-docker/.gitignore
