@@ -3,7 +3,8 @@ version: '3.8'
 services:
   spring_boot:
     build: ./spring-docker
-    container_name: spring_boot
+    image: tung-spring-boot:0.0.1-SNAPSHOT
+    container_name: spring-boot
     depends_on:
       - mysql
     environment:
