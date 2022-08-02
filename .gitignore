@@ -19,3 +19,4 @@ target/
 spring-docker/.mvn/wrapper/maven-wrapper.jar
 spring-docker/.mvn/wrapper/maven-wrapper.properties
 spring-docker/.gitignore
+spring-docker/.mvn
