@@ -1,0 +1,21 @@
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code ###
+.vscode/
+
+## Spring Docker
+
+spring-docker/.mvn/wrapper/maven-wrapper.jar
+spring-docker/.mvn/wrapper/maven-wrapper.properties
+spring-docker/.gitignore
